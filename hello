@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<style>
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:95px;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 60%;}
+</style>
+
+
+<div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+
+<button id="test"  class="button button5">adidas</button>
+<button id="growing" class="button button5">nike</button>
+<button id="abin" class="button button5">Reebok</button>
+<button id="abin2" class="button button5">bata</button>
+<button id="abin3" class="button button5">sparks</button>
+<button id="abin4" class="button button5">woodlans</button>
+<button id="abin5" class="button button5">gas</button>
+<button id="abin7" class="button button5">red tape</button>
+<button id="abin6" class="button button5">Action</button>
+<button id="abin8" class="button button5">power</button>
+<button id="abin9" class="button button5">vkc</button>
+<button id="abi10" class="button button5">metro</button>
+
+
+
+
+<style>
+#growing {
+  transition: font-size 3s, color 2s;
+}
+</style>
+
+<script>
+growing.onclick = function() {
+  this.style.fontSize = '36px';
+  this.style.color = 'red';
+};
+</script>
+
+
+
+<script>
+test.onclick = function() {
+  this.style.fontSize = '36px';
+  this.style.color = 'red';
+};
+</script>
+
+<script>
+abin.onclick = function() {
+  this.style.fontSize = '36px';
+  this.style.color = 'yellow';
+};
+</script>
+<script>
+abin3.onclick = function() {
+  this.style.fontSize = '50px';
+  this.style.color = 'green';
+};
+</script>
+<script>
+abin2.onclick = function() {
+  this.style.fontSize = '50px';
+  this.style.color = 'green';
+};
+</script>
+<script>
+abin4.onclick = function() {
+  this.style.fontSize = '50px';
+  this.style.color = 'green';
+};
+</script>
+
+<script>
+abin5.onclick = function() {
+  this.style.fontSize = '50px';
+  this.style.color = 'green';
+};
+</script>
+
+<script>
+abin6.onclick = function() {
+  this.style.fontSize = '50px';
+  this.style.color = 'green';
+};
+</script>
+
+<script>
+abin7.onclick = function() {
+  this.style.fontSize = '50px';
+  this.style.color = 'green';
+};
+</script>
+
+<script>
+abin8.onclick = function() {
+  this.style.fontSize = '50px';
+  this.style.color = 'green';
+};
+</script>
+
+
+</body>
+
+</html>
